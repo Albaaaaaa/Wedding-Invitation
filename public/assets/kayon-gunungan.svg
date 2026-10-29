@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 768" width="512" height="768">
+  <defs>
+    <linearGradient id="kayon-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8E2233" />
+      <stop offset="55%" stop-color="#6B1424" />
+      <stop offset="100%" stop-color="#3B0A14" />
+    </linearGradient>
+  </defs>
+
+  <!-- Gapit (Central Horn Handle) -->
+  <path d="M256 640 L256 756" stroke="#EADFCB" stroke-opacity="0.45" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Outer Gunungan / Kayon Mountain Silhouette -->
+  <path
+    d="M256 28
+       C284 88 338 148 378 228
+       C416 304 428 394 402 482
+       C384 542 356 592 342 642
+       L170 642
+       C156 592 128 542 110 482
+       C84 394 96 304 134 228
+       C174 148 228 88 256 28 Z"
+    fill="url(#kayon-fill)"
+    stroke="#EADFCB"
+    stroke-width="3"
+    stroke-opacity="0.78"
+  />
+
+  <!-- Inner Double Border -->
+  <path
+    d="M256 56
+       C280 108 326 162 360 234
+       C394 304 404 388 380 470
+       C364 524 340 572 328 620
+       L184 620
+       C172 572 148 524 132 470
+       C108 388 118 304 152 234
+       C186 162 232 108 256 56 Z"
+    fill="none"
+    stroke="#EADFCB"
+    stroke-width="1.5"
+    stroke-opacity="0.45"
+    stroke-dasharray="4 4"
+  />
+
+  <!-- Kalpataru (Sacred Tree of Life Trunk & Branches) -->
+  <g stroke="#EADFCB" stroke-opacity="0.72" fill="none" stroke-linecap="round">
+    <path d="M256 480 L256 120" stroke-width="5" />
+    <!-- Symmetrical Scrolling Lung-lungan Branches -->
+    <path d="M256 380 C210 368 172 336 166 296 C160 264 186 244 210 262 C226 274 220 298 202 302" stroke-width="3" />
+    <path d="M256 380 C302 368 340 336 346 296 C352 264 326 244 302 262 C286 274 292 298 310 302" stroke-width="3" />
+    <path d="M256 290 C216 276 184 246 182 210 C180 182 204 168 224 184" stroke-width="2.6" />
+    <path d="M256 290 C296 276 328 246 330 210 C332 182 308 168 288 184" stroke-width="2.6" />
+    <path d="M256 205 C230 192 212 168 214 142 C216 122 236 114 248 128" stroke-width="2.2" />
+    <path d="M256 205 C282 192 300 168 298 142 C296 122 276 114 264 128" stroke-width="2.2" />
+  </g>
+
+  <!-- Candi Laras (Winged Gateway at Base of Kayon) -->
+  <g fill="#0B0506" stroke="#EADFCB" stroke-opacity="0.75" stroke-width="2">
+    <!-- Tiered Roof -->
+    <path d="M196 516 L316 516 L300 492 L212 492 Z" />
+    <path d="M212 492 L300 492 L284 470 L228 470 Z" />
+    <path d="M232 470 L280 470 L256 444 Z" />
+    <!-- Sanctuary Pillars & Threshold -->
+    <rect x="206" y="516" width="100" height="84" />
+    <path d="M234 600 L234 544 C234 530 278 530 278 544 L278 600 Z" fill="#EADFCB" fill-opacity="0.22" />
+    <!-- Garuda Wings Flanking the Gate -->
+    <path d="M206 548 C166 536 142 504 148 472 C164 484 186 502 206 522 Z" />
+    <path d="M306 548 C346 536 370 504 364 472 C348 484 326 502 306 522 Z" />
+  </g>
+
+  <!-- Perforated Filigree Dots (Sunggingan) -->
+  <g fill="#F2E3C6" fill-opacity="0.85">
+    <circle cx="256" cy="94" r="4.5" />
+    <circle cx="256" cy="160" r="3.5" />
+    <circle cx="256" cy="244" r="3.5" />
+    <circle cx="256" cy="334" r="4" />
+    <circle cx="256" cy="416" r="4.5" />
+    <circle cx="202" cy="282" r="3" />
+    <circle cx="310" cy="282" r="3" />
+    <circle cx="206" cy="202" r="2.8" />
+    <circle cx="306" cy="202" r="2.8" />
+    <circle cx="174" cy="398" r="3.2" />
+    <circle cx="338" cy="398" r="3.2" />
+  </g>
+</svg>

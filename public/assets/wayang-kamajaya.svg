@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 768" width="512" height="768">
+  <defs>
+    <filter id="wayang-edge-m" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="0.8" />
+    </filter>
+    <pattern id="tatahan-parang" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <circle cx="4" cy="4" r="1.5" fill="#F2E3C6" fill-opacity="0.85" />
+      <line x1="0" y1="10" x2="14" y2="10" stroke="#F2E3C6" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="2 3" />
+    </pattern>
+  </defs>
+
+  <!-- Gapit (Central horn control rod) -->
+  <g id="gapit">
+    <path d="M256 210 L254 758" stroke="#1E0C10" stroke-width="5.5" stroke-linecap="round" />
+    <path d="M255 676 C246 704 246 736 255 762 C264 736 264 704 255 676 Z" fill="#0B0506" stroke="#EADFCB" stroke-opacity="0.25" stroke-width="1.2" />
+  </g>
+
+  <!-- Body & Dodot / Kampuh Ageng with Praba -->
+  <g id="body" filter="url(#wayang-edge-m)">
+    <!-- Broad Noble Shoulders & Slender Waist (Wayang Bambangan / Kamajaya) -->
+    <path d="M198 242 C236 234 278 236 306 254 C296 304 282 344 276 376 C302 414 338 482 356 592 C340 628 312 648 282 652 L176 652 C164 606 182 528 202 456 C214 412 222 386 226 370 C216 332 192 288 198 242 Z" fill="#0B0506" />
+    <!-- Bokongan / Royal Dodot Back Fold -->
+    <path d="M196 382 C154 396 128 436 138 484 C146 522 172 548 198 556 Z" fill="#0B0506" />
+    <!-- Keris Warangka at Back Waist -->
+    <path d="M188 358 L144 324 C138 330 140 342 150 350 L186 374 Z" fill="#0B0506" />
+  </g>
+
+  <!-- Head & Gelung Supit Urang Crown (Facing right-center toward Kamaratih) -->
+  <g id="head">
+    <!-- Neck -->
+    <path d="M236 206 L268 204 L264 246 L228 246 Z" fill="#0B0506" />
+    <!-- Noble Profile Facing Right (Alus Luruh) -->
+    <path d="M272 136 C296 144 322 162 342 172 C328 178 316 180 310 186 C318 192 316 202 304 206 C308 214 296 220 280 218 C262 216 242 208 232 192 C220 172 230 138 272 136 Z" fill="#0B0506" />
+    <!-- Tall Gelung Supit Urang (Lobster-Claw Royal Coiffure) -->
+    <path d="M276 136 C268 82 222 46 176 62 C136 76 124 128 152 168 C174 198 210 208 236 198 C204 180 176 148 186 114 C196 84 236 90 248 128 Z" fill="#0B0506" />
+    <!-- Upper Supit Urang Arch -->
+    <path d="M182 60 C202 32 246 28 264 56 C244 48 214 54 198 76 Z" fill="#0B0506" />
+    <!-- Sumping Surengpati Ear Ornament -->
+    <path d="M244 162 C218 146 190 154 178 178 C198 188 222 188 242 178 Z" fill="#0B0506" />
+  </g>
+
+  <!-- Articulated Upper Arm -->
+  <g id="upper-arm">
+    <path d="M214 256 C192 278 176 326 170 374 C180 378 192 376 198 368 C204 326 216 286 230 264 Z" fill="#0B0506" />
+    <circle cx="222" cy="260" r="4" fill="#F2E3C6" fill-opacity="0.8" />
+  </g>
+
+  <!-- Articulated Lower Arm + Sampur + Tuding Rod -->
+  <g id="lower-arm">
+    <path d="M176 370 C208 352 248 330 286 306 C304 294 320 284 332 272 C320 268 306 276 290 286 C250 308 208 334 170 364 Z" fill="#0B0506" />
+    <!-- Flowing Sampur -->
+    <path d="M284 302 C300 364 318 436 342 508 C328 516 314 506 304 482 C288 426 278 364 270 310 Z" fill="#0B0506" />
+    <!-- Tuding (Arm Control Rod) -->
+    <path d="M326 276 L356 670" stroke="#1E0C10" stroke-width="2.5" stroke-opacity="0.85" />
+  </g>
+
+  <!-- Sunggingan / Tatahan Filigree Perforations -->
+  <g id="sunggingan" fill="#F2E3C6" fill-opacity="0.88">
+    <!-- Crown & Gelung Filigree -->
+    <circle cx="212" cy="96" r="3.2" />
+    <circle cx="194" cy="92" r="3.5" />
+    <circle cx="176" cy="102" r="3.2" />
+    <circle cx="164" cy="118" r="3" />
+    <circle cx="162" cy="138" r="2.8" />
+    <circle cx="212" cy="170" r="2.5" />
+    <circle cx="198" cy="172" r="2.5" />
+    <!-- Eye Slit (Liyepan Halus) -->
+    <path d="M298 168 Q286 166 278 171 Q288 173 298 168 Z" />
+    <!-- Kalung Ulur Chest Ornament -->
+    <circle cx="234" cy="250" r="2.8" />
+    <circle cx="248" cy="256" r="3.2" />
+    <circle cx="262" cy="256" r="3.2" />
+    <circle cx="276" cy="250" r="2.8" />
+    <circle cx="255" cy="284" r="3.5" />
+    <circle cx="255" cy="306" r="3" />
+    <!-- Bokongan & Dodot Tatahan Pattern -->
+    <rect x="210" y="394" width="90" height="226" rx="30" fill="url(#tatahan-parang)" />
+    <circle cx="164" cy="446" r="3.5" />
+    <circle cx="156" cy="468" r="3" />
+    <circle cx="166" cy="490" r="3" />
+    <!-- Bottom Hem Filigree -->
+    <path d="M188 632 L322 632" stroke="#F2E3C6" stroke-width="2.5" stroke-dasharray="5 5" stroke-opacity="0.82" />
+  </g>
+</svg>

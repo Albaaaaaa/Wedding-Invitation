@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" fill="none" />
+  <!-- Sidomukti Diamond Lattice -->
+  <g stroke="#EADFCB" stroke-opacity="0.28" stroke-width="1.5" fill="none">
+    <polygon points="120,8 232,120 120,232 8,120" />
+    <polygon points="120,20 220,120 120,220 20,120" stroke-dasharray="3 3" stroke-opacity="0.18" />
+  </g>
+  <!-- Sidoasih / Sidomukti Garuda Lar (Single Wing of Devotion) & Lung-lungan Scrolls -->
+  <g stroke="#8E2233" stroke-width="2" fill="#6B1424" fill-opacity="0.35">
+    <path d="M120 64 C96 76 76 102 82 128 C94 148 120 162 120 178 C120 162 146 148 158 128 C164 102 144 76 120 64 Z" />
+    <path d="M120 82 C104 92 94 110 98 126 C106 138 120 148 120 158 C120 148 134 138 142 126 C146 110 136 92 120 82 Z" stroke="#EADFCB" stroke-opacity="0.3" />
+  </g>
+  <!-- Corner Lung-lungan Floral Tendrils -->
+  <g stroke="#EADFCB" stroke-opacity="0.32" stroke-width="1.4" fill="none" stroke-linecap="round">
+    <path d="M24 24 C48 20 62 36 52 52 C44 62 28 54 34 42" />
+    <path d="M216 24 C192 20 178 36 188 52 C196 62 212 54 206 42" />
+    <path d="M24 216 C48 220 62 204 52 188 C44 178 28 186 34 198" />
+    <path d="M216 216 C192 220 178 204 188 188 C196 178 212 186 206 198" />
+  </g>
+</svg>

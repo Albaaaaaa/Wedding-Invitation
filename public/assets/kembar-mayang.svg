@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1000" width="600" height="1000">
+  <!-- Kembar Mayang: Javanese ceremonial janur palm-leaf bouquet on brass/wood pedestal -->
+  <g fill="none" stroke="#EADFCB" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Carved Wooden Pedestal Base (Bokor / Jodya) -->
+    <path d="M 210 960 L 390 960 L 368 920 L 232 920 Z" fill="#3B0A14" stroke-width="5" />
+    <path d="M 248 920 C 248 860, 272 820, 282 740 L 318 740 C 328 820, 352 860, 352 920 Z" fill="#6B1424" stroke-width="5" />
+    <!-- Bokor Vessel Bowl -->
+    <path d="M 196 680 C 196 730, 240 752, 300 752 C 360 752, 404 730, 404 680 Z" fill="#8E2233" stroke-width="6" />
+    <ellipse cx="300" cy="680" rx="108" ry="22" fill="#3B0A14" stroke-width="5" />
+
+    <!-- Central Banana Trunk Core (Debog) -->
+    <rect x="284" y="340" width="32" height="340" rx="12" fill="#EADFCB" fill-opacity="0.25" stroke-width="4" />
+
+    <!-- Lower Cascading Janur Fronds (Melengkung Bawah) -->
+    <path d="M 290 640 C 210 610, 120 650, 74 740 C 130 690, 210 676, 288 668 Z" fill="#EADFCB" fill-opacity="0.3" stroke-width="4" />
+    <path d="M 310 640 C 390 610, 480 650, 526 740 C 470 690, 390 676, 312 668 Z" fill="#EADFCB" fill-opacity="0.3" stroke-width="4" />
+
+    <!-- Mid-tier Janur Plumes & Woven Keris / Walang Ornaments -->
+    <path d="M 288 540 C 180 480, 96 510, 52 590 C 118 548, 198 542, 286 568 Z" fill="#EADFCB" fill-opacity="0.45" stroke-width="4" />
+    <path d="M 312 540 C 420 480, 504 510, 548 590 C 482 548, 402 542, 314 568 Z" fill="#EADFCB" fill-opacity="0.45" stroke-width="4" />
+
+    <path d="M 288 450 C 190 368, 112 378, 68 446 C 136 416, 208 422, 286 476 Z" fill="#EADFCB" fill-opacity="0.6" stroke-width="4" />
+    <path d="M 312 450 C 410 368, 488 378, 532 446 C 464 416, 392 422, 314 476 Z" fill="#EADFCB" fill-opacity="0.6" stroke-width="4" />
+
+    <!-- Upper Arching Janur Whip Plumes -->
+    <path d="M 292 370 C 220 250, 146 240, 106 304 C 166 278, 232 300, 290 392 Z" fill="#EADFCB" fill-opacity="0.75" stroke-width="4" />
+    <path d="M 308 370 C 380 250, 454 240, 494 304 C 434 278, 368 300, 310 392 Z" fill="#EADFCB" fill-opacity="0.75" stroke-width="4" />
+
+    <!-- Crown Spire (Payung Agung & Manuk-manukan Janur) -->
+    <path d="M 300 84 C 266 168, 260 254, 286 344 L 314 344 C 340 254, 334 168, 300 84 Z" fill="#EADFCB" fill-opacity="0.85" stroke-width="5" />
+    <path d="M 300 130 C 242 170, 198 206, 174 246" stroke-width="4" />
+    <path d="M 300 130 C 358 170, 402 206, 426 246" stroke-width="4" />
+
+    <!-- Hanging Jasmine Buds (Melati Tiba Dhadha) -->
+    <g fill="#EADFCB" stroke="none">
+      <circle cx="174" cy="264" r="7" />
+      <circle cx="174" cy="286" r="6" />
+      <circle cx="174" cy="306" r="5" />
+      <circle cx="426" cy="264" r="7" />
+      <circle cx="426" cy="286" r="6" />
+      <circle cx="426" cy="306" r="5" />
+    </g>
+  </g>
+</svg>

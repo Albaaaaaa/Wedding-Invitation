@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bg-glow-g" cx="50%" cy="38%" r="58%">
+      <stop offset="0%" stop-color="#8E2233" />
+      <stop offset="55%" stop-color="#3B0A14" />
+      <stop offset="100%" stop-color="#0B0506" />
+    </radialGradient>
+    <radialGradient id="face-light-g" cx="52%" cy="38%" r="34%">
+      <stop offset="0%" stop-color="#F2E6D6" />
+      <stop offset="55%" stop-color="#CFB699" />
+      <stop offset="85%" stop-color="#7D4E45" />
+      <stop offset="100%" stop-color="#3B0A14" />
+    </radialGradient>
+    <linearGradient id="beskap-velvet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#58101E" />
+      <stop offset="50%" stop-color="#2E070F" />
+      <stop offset="100%" stop-color="#0B0506" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg-glow-g)" />
+
+  <!-- Neck & Collar -->
+  <path d="M332 475 L468 475 L488 595 L312 595 Z" fill="url(#face-light-g)" />
+
+  <!-- Royal Beskap Sikepan Ageng -->
+  <path d="M130 635 C200 555 295 535 400 535 C505 535 600 555 670 635 L720 1000 L80 1000 Z" fill="url(#beskap-velvet)" stroke="#EADFCB" stroke-opacity="0.28" stroke-width="2" />
+  <!-- High Collar & Karset Chain -->
+  <path d="M318 532 L400 610 L482 532" fill="none" stroke="#EADFCB" stroke-opacity="0.6" stroke-width="3.5" />
+  <path d="M335 555 Q400 720 465 555" fill="none" stroke="#EADFCB" stroke-opacity="0.45" stroke-width="2.5" stroke-dasharray="6 5" />
+
+  <!-- Sculpted Noble Javanese Groom Face -->
+  <path d="M278 315 C278 215 330 180 400 180 C470 180 522 215 522 315 C522 415 468 498 400 504 C332 498 278 415 278 315 Z" fill="url(#face-light-g)" />
+
+  <!-- Traditional Blangkon Kasunanan / Ngayogyakarta Headdress -->
+  <path d="M262 288 C262 175 322 128 400 128 C478 128 538 175 538 288 C490 256 445 244 400 264 C355 244 310 256 262 288 Z" fill="#1C060B" stroke="#EADFCB" stroke-opacity="0.35" stroke-width="2" />
+  <!-- Diagonal Batik Parang Bands on Blangkon -->
+  <path d="M300 245 L385 140 M350 250 L435 145 M405 256 L480 165" stroke="#EADFCB" stroke-opacity="0.28" stroke-width="6" />
+  <!-- Sumping Melati at Ear -->
+  <g fill="#F2E3C6" fill-opacity="0.85">
+    <circle cx="530" cy="335" r="8" />
+    <circle cx="536" cy="355" r="7.5" />
+    <circle cx="534" cy="375" r="7" />
+  </g>
+
+  <!-- Noble Facial Features -->
+  <g stroke="#1B0A0E" fill="none" stroke-linecap="round">
+    <path d="M314 316 Q350 302 382 314" stroke-width="5.5" />
+    <path d="M418 314 Q450 302 486 316" stroke-width="5.5" />
+    <path d="M324 342 Q354 334 378 342" stroke-width="4" />
+    <path d="M422 342 Q446 334 476 342" stroke-width="4" />
+    <circle cx="352" cy="342" r="5" fill="#1B0A0E" />
+    <circle cx="448" cy="342" r="5" fill="#1B0A0E" />
+    <!-- Strong Nose Bridge -->
+    <path d="M400 320 L395 398 Q402 408 414 398" stroke-width="3.2" stroke-opacity="0.7" />
+    <!-- Dignified Expression -->
+    <path d="M366 440 Q400 434 434 440" stroke-width="3.5" />
+    <path d="M382 452 Q400 456 418 452" stroke-width="2" stroke-opacity="0.55" />
+  </g>
+</svg>

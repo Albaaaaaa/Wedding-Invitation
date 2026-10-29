@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-10-29T03:45:03.297Z",
+  "totalSizeBytes": 30973,
+  "totalSizeKB": "30.25 KB",
+  "budgetPassed": true,
+  "assets": [
+    {
+      "id": "gebyok-relief",
+      "file": "/assets/gebyok-relief.svg",
+      "category": "pelaminan",
+      "sizeBytes": 4871,
+      "sizeKB": "4.76 KB",
+      "status": "siap",
+      "description": "Peta tinggi (height/bump map) ukiran Gebyok jati Jawa dengan panel Kawung, tiang Lung-lungan, lengkung Gapura tengah, dan ornamen Kayon kecil di puncak."
+    },
+    {
+      "id": "gapura-mask",
+      "file": "/assets/gapura-mask.svg",
+      "category": "pelaminan",
+      "sizeBytes": 1910,
+      "sizeKB": "1.87 KB",
+      "status": "siap",
+      "description": "Alpha mask lengkung Gapura Gebyok berukir tembus untuk kartu Double Exposure mempelai (menggantikan siluet wayang)."
+    },
+    {
+      "id": "kembar-mayang",
+      "file": "/assets/kembar-mayang.svg",
+      "category": "pelaminan",
+      "sizeBytes": 2912,
+      "sizeKB": "2.84 KB",
+      "status": "siap",
+      "description": "Profil siluet rangkaian janur Kembar Mayang dan bokor kayu di kiri-kanan panggung pelaminan."
+    },
+    {
+      "id": "renda-kebaya",
+      "file": "/assets/renda-kebaya.svg",
+      "category": "pelaminan",
+      "sizeBytes": 1905,
+      "sizeKB": "1.86 KB",
+      "status": "siap",
+      "description": "Tile seamless motif brokat/renda kebaya maroon pekat untuk tekstur pakaian mempelai wanita."
+    },
+    {
+      "id": "kayon-gunungan",
+      "file": "/assets/kayon-gunungan.svg",
+      "category": "pelaminan",
+      "sizeBytes": 3407,
+      "sizeKB": "3.33 KB",
+      "status": "siap",
+      "description": "Ornamen Kayon / Pohon Hayat kecil yang dipasang di puncak lengkung tengah Gebyok."
+    },
+    {
+      "id": "relief-envelope-melati",
+      "file": "/assets/relief-envelope-melati.svg",
+      "category": "relief",
+      "sizeBytes": 1886,
+      "sizeKB": "1.84 KB",
+      "status": "siap",
+      "description": "Peta tinggi (height map) grayscale motif bunga melati & lung-lungan di tepi panel amplop (tengah polos)."
+    },
+    {
+      "id": "seal-melati-emblem",
+      "file": "/assets/seal-melati-emblem.svg",
+      "category": "relief",
+      "sizeBytes": 1839,
+      "sizeKB": "1.80 KB",
+      "status": "siap",
+      "description": "Peta tinggi (height map) emblem segel lilin dengan kuntum melati timbul dan cincin tepi."
+    },
+    {
+      "id": "motif-parang",
+      "file": "/assets/motif-parang.svg",
+      "category": "batik",
+      "sizeBytes": 1467,
+      "sizeKB": "1.43 KB",
+      "status": "siap",
+      "description": "Tile seamless motif Parang Rusak diagonal untuk kain jarik pengantin dan slepe di tangga pelaminan."
+    },
+    {
+      "id": "motif-kawung",
+      "file": "/assets/motif-kawung.svg",
+      "category": "batik",
+      "sizeBytes": 2221,
+      "sizeKB": "2.17 KB",
+      "status": "siap",
+      "description": "Tile seamless motif Kawung Keraton untuk tepi karpet tangga pelaminan, lantai batu, dan panel ukir."
+    },
+    {
+      "id": "motif-sidomukti",
+      "file": "/assets/motif-sidomukti.svg",
+      "category": "batik",
+      "sizeBytes": 1297,
+      "sizeKB": "1.27 KB",
+      "status": "siap",
+      "description": "Motif bingkai Sidomukti / Sidoasih dengan sulur lung-lungan sudut untuk kartu mempelai."
+    },
+    {
+      "id": "bride-portrait",
+      "file": "/img/bride.svg",
+      "category": "portrait",
+      "sizeBytes": 4131,
+      "sizeKB": "4.03 KB",
+      "status": "placeholder-pemilik",
+      "description": "Ilustrasi portrait mempelai wanita untuk pengujian shader Double Exposure Gapura Gebyok sebelum foto asli pemilik."
+    },
+    {
+      "id": "groom-portrait",
+      "file": "/img/groom.svg",
+      "category": "portrait",
+      "sizeBytes": 3127,
+      "sizeKB": "3.05 KB",
+      "status": "placeholder-pemilik",
+      "description": "Ilustrasi portrait mempelai pria untuk pengujian shader Double Exposure Gapura Gebyok sebelum foto asli pemilik."
+    }
+  ]
+}

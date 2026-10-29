@@ -1,0 +1,6 @@
+{
+  "name": "Sugeng Rawuh — Undangan Pernikahan Keraton Jawa 3D",
+  "description": "Undangan pernikahan digital 3D bergaya Keraton Jawa dengan palet maroon dan hitam kelir, siluet wayang Kamajaya & Kamaratih, serta animasi sinematik.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1024" width="2048" height="1024">
+  <defs>
+    <!-- Kawung tile pattern for side carved panels -->
+    <pattern id="kawung-carve" width="96" height="96" patternUnits="userSpaceOnUse">
+      <rect width="96" height="96" fill="#181818" />
+      <circle cx="48" cy="48" r="42" fill="none" stroke="#646464" stroke-width="5" />
+      <ellipse cx="48" cy="20" rx="14" ry="22" fill="#9a9a9a" stroke="#d8d8d8" stroke-width="3" />
+      <ellipse cx="48" cy="76" rx="14" ry="22" fill="#9a9a9a" stroke="#d8d8d8" stroke-width="3" />
+      <ellipse cx="20" cy="48" rx="22" ry="14" fill="#9a9a9a" stroke="#d8d8d8" stroke-width="3" />
+      <ellipse cx="76" cy="48" rx="22" ry="14" fill="#9a9a9a" stroke="#d8d8d8" stroke-width="3" />
+      <circle cx="48" cy="48" r="8" fill="#ececec" />
+    </pattern>
+
+    <!-- Lung-lungan floral scroll vertical border -->
+    <pattern id="lung-vertical" width="80" height="160" patternUnits="userSpaceOnUse">
+      <rect width="80" height="160" fill="#222222" />
+      <path d="M 40 0 C 12 40, 68 120, 40 160" fill="none" stroke="#c8c8c8" stroke-width="8" stroke-linecap="round" />
+      <path d="M 40 40 C 64 26, 72 56, 48 64 C 34 68, 28 52, 40 40 Z" fill="#b0b0b0" />
+      <path d="M 40 120 C 16 106, 8 136, 32 144 C 46 148, 52 132, 40 120 Z" fill="#b0b0b0" />
+      <circle cx="48" cy="50" r="6" fill="#f0f0f0" />
+      <circle cx="32" cy="130" r="6" fill="#f0f0f0" />
+    </pattern>
+
+    <linearGradient id="pillar-depth" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#353535" />
+      <stop offset="50%" stop-color="#e5e5e5" />
+      <stop offset="100%" stop-color="#353535" />
+    </linearGradient>
+
+    <radialGradient id="arch-crown" cx="50%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="65%" stop-color="#9e9e9e" />
+      <stop offset="100%" stop-color="#1e1e1e" />
+    </radialGradient>
+  </defs>
+
+  <!-- Base timber depth -->
+  <rect width="2048" height="1024" fill="#121212" />
+
+  <!-- Outer structural cornice & beam -->
+  <rect x="24" y="24" width="2000" height="976" rx="8" fill="#1e1e1e" stroke="#bdbdbd" stroke-width="10" />
+  <rect x="44" y="44" width="1960" height="58" fill="url(#pillar-depth)" stroke="#d8d8d8" stroke-width="4" />
+
+  <!-- Left & Right Wing Panels (Kawung + Lung-lungan) -->
+  <!-- Left Outer Panel -->
+  <rect x="64" y="128" width="280" height="840" fill="url(#kawung-carve)" stroke="#b8b8b8" stroke-width="8" />
+  <!-- Left Inner Panel -->
+  <rect x="372" y="128" width="280" height="840" fill="url(#kawung-carve)" stroke="#b8b8b8" stroke-width="8" />
+  <!-- Right Inner Panel -->
+  <rect x="1396" y="128" width="280" height="840" fill="url(#kawung-carve)" stroke="#b8b8b8" stroke-width="8" />
+  <!-- Right Outer Panel -->
+  <rect x="1704" y="128" width="280" height="840" fill="url(#kawung-carve)" stroke="#b8b8b8" stroke-width="8" />
+
+  <!-- Carved Teak Pillars (Soko Gebyok) -->
+  <rect x="668" y="110" width="64" height="874" fill="url(#pillar-depth)" stroke="#ececec" stroke-width="4" />
+  <rect x="1316" y="110" width="64" height="874" fill="url(#pillar-depth)" stroke="#ececec" stroke-width="4" />
+  <rect x="680" y="130" width="40" height="834" fill="url(#lung-vertical)" />
+  <rect x="1328" y="130" width="40" height="834" fill="url(#lung-vertical)" />
+
+  <!-- Central Gapura Arch Frame & Crown -->
+  <path d="M 732 984 L 732 420 C 732 230, 880 140, 1024 108 C 1168 140, 1316 230, 1316 420 L 1316 984 Z"
+        fill="#080808" stroke="#e8e8e8" stroke-width="18" />
+
+  <!-- Ornate Kala / Lung-lungan Arch Spandrels -->
+  <path d="M 732 410 C 740 250, 875 165, 1024 128 C 1173 165, 1308 250, 1316 410
+           L 1270 430 C 1258 290, 1148 215, 1024 184 C 900 215, 790 290, 778 430 Z"
+        fill="url(#arch-crown)" stroke="#ffffff" stroke-width="6" />
+
+  <!-- Intricate Lung-lungan Scrolls across the Arch -->
+  <g fill="none" stroke="#efefef" stroke-width="7" stroke-linecap="round">
+    <path d="M 1024 148 C 960 165, 910 210, 865 260 C 840 288, 868 312, 892 288" />
+    <path d="M 1024 148 C 1088 165, 1138 210, 1183 260 C 1208 288, 1180 312, 1156 288" />
+    <path d="M 865 260 C 815 305, 785 360, 776 415" />
+    <path d="M 1183 260 C 1233 305, 1263 360, 1272 415" />
+  </g>
+
+  <!-- Small Kayon / Pohon Hayat Ornament at Peak of Gebyok (1024, 98) -->
+  <g transform="translate(1024, 112)">
+    <path d="M 0 -76 C 28 -44, 48 -12, 42 26 C 38 48, 22 64, 0 70 C -22 64, -38 48, -42 26 C -48 -12, -28 -44, 0 -76 Z"
+          fill="#d8d8d8" stroke="#ffffff" stroke-width="5" />
+    <path d="M 0 -54 L 0 58 M 0 -20 C -18 -34, -28 -16, -14 -4 M 0 -20 C 18 -34, 28 -16, 14 -4 M 0 12 C -22 -2, -32 16, -16 28 M 0 12 C 22 -2, 32 16, 16 28"
+          fill="none" stroke="#222222" stroke-width="4" stroke-linecap="round" />
+    <circle cx="0" cy="-28" r="6" fill="#ffffff" />
+  </g>
+</svg>

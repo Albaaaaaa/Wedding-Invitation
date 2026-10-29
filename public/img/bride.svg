@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bg-glow-b" cx="50%" cy="38%" r="58%">
+      <stop offset="0%" stop-color="#8E2233" />
+      <stop offset="55%" stop-color="#3B0A14" />
+      <stop offset="100%" stop-color="#0B0506" />
+    </radialGradient>
+    <radialGradient id="face-light-b" cx="46%" cy="36%" r="34%">
+      <stop offset="0%" stop-color="#F5ECE0" />
+      <stop offset="55%" stop-color="#D8C2A8" />
+      <stop offset="85%" stop-color="#8A5A50" />
+      <stop offset="100%" stop-color="#3B0A14" />
+    </radialGradient>
+    <linearGradient id="kebaya-velvet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B1424" />
+      <stop offset="50%" stop-color="#3B0A14" />
+      <stop offset="100%" stop-color="#0B0506" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg-glow-b)" />
+
+  <!-- Subtle Sanggul & Paes Ageng Halo -->
+  <ellipse cx="400" cy="310" rx="165" ry="155" fill="#0B0506" />
+  <!-- Cunduk Mentul Royal Hairpins -->
+  <g fill="#EADFCB" fill-opacity="0.75" stroke="#EADFCB" stroke-width="2">
+    <line x1="400" y1="160" x2="400" y2="95" />
+    <circle cx="400" cy="90" r="12" />
+    <line x1="340" y1="175" x2="315" y2="115" />
+    <circle cx="312" cy="110" r="10" />
+    <line x1="460" y1="175" x2="485" y2="115" />
+    <circle cx="488" cy="110" r="10" />
+    <line x1="290" y1="205" x2="250" y2="155" />
+    <circle cx="246" cy="150" r="9" />
+    <line x1="510" y1="205" x2="550" y2="155" />
+    <circle cx="554" cy="150" r="9" />
+  </g>
+
+  <!-- Jasmine Roncean Melati Garlands -->
+  <g fill="#F2E3C6" fill-opacity="0.88">
+    <circle cx="255" cy="350" r="9" />
+    <circle cx="252" cy="374" r="9.5" />
+    <circle cx="254" cy="398" r="9" />
+    <circle cx="258" cy="422" r="8.5" />
+    <circle cx="262" cy="446" r="8" />
+    <circle cx="265" cy="470" r="8" />
+    <circle cx="268" cy="494" r="7.5" />
+    <circle cx="545" cy="350" r="9" />
+    <circle cx="548" cy="374" r="9.5" />
+    <circle cx="546" cy="398" r="9" />
+    <circle cx="542" cy="422" r="8.5" />
+    <circle cx="538" cy="446" r="8" />
+    <circle cx="535" cy="470" r="8" />
+  </g>
+
+  <!-- Neck & Shoulders -->
+  <path d="M342 470 L458 470 L478 585 L322 585 Z" fill="url(#face-light-b)" />
+
+  <!-- Velvet Kebaya Keraton -->
+  <path d="M165 650 C225 568 310 545 400 545 C490 545 575 568 635 650 L680 1000 L120 1000 Z" fill="url(#kebaya-velvet)" stroke="#EADFCB" stroke-opacity="0.25" stroke-width="2" />
+  <!-- Bros Susun Tiga on Kebaya -->
+  <path d="M350 548 L400 665 L450 548" fill="none" stroke="#EADFCB" stroke-opacity="0.55" stroke-width="3" />
+  <circle cx="400" cy="615" r="14" fill="#EADFCB" fill-opacity="0.75" />
+  <circle cx="400" cy="655" r="11" fill="#EADFCB" fill-opacity="0.65" />
+  <circle cx="400" cy="690" r="9" fill="#EADFCB" fill-opacity="0.55" />
+
+  <!-- Sculpted Noble Javanese Bride Face (Chiaroscuro lighting for Double Exposure) -->
+  <path d="M286 310 C286 218 336 178 400 178 C464 178 514 218 514 310 C514 406 462 488 400 494 C338 488 286 406 286 310 Z" fill="url(#face-light-b)" />
+
+  <!-- Traditional Javanese Paes Ageng Forehead Curves (Pidih Hitam) -->
+  <path d="M286 292 C310 235 352 248 368 205 C382 242 400 185 400 185 C400 185 418 242 432 205 C448 248 490 235 514 292 C514 210 465 172 400 172 C335 172 286 210 286 292 Z" fill="#0B0506" />
+  <circle cx="400" cy="242" r="5" fill="#EADFCB" fill-opacity="0.85" />
+
+  <!-- Serene Downcast Eyes & Brows (Alis Menjangan Ranggah) -->
+  <g stroke="#1B0A0E" fill="none" stroke-linecap="round">
+    <path d="M322 316 Q354 300 380 314" stroke-width="4.5" />
+    <path d="M420 314 Q446 300 478 316" stroke-width="4.5" />
+    <path d="M330 342 Q355 352 378 340" stroke-width="3.5" />
+    <path d="M422 340 Q445 352 470 342" stroke-width="3.5" />
+    <!-- Delicate Nose Bridge & Shadow -->
+    <path d="M398 324 L394 394 Q400 404 410 396" stroke-width="2.8" stroke-opacity="0.65" />
+    <!-- Serene Lips -->
+    <path d="M370 432 Q400 424 430 432 Q400 448 370 432 Z" fill="#6B1424" fill-opacity="0.82" stroke-width="1.5" />
+  </g>
+</svg>

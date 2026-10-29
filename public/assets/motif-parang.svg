@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <rect width="160" height="160" fill="#6B1424" />
+  <!-- Diagonal Parang Rusak Barong Bands (Tone-on-Tone Maroon Sogan & Subtle Ivory) -->
+  <g stroke="#8E2233" stroke-width="2" fill="none">
+    <path d="M-40 40 C-10 10 10 -10 40 -40" />
+    <path d="M-40 120 C20 60 60 20 120 -40" />
+    <path d="M-40 200 C60 100 100 60 200 -40" />
+    <path d="M40 200 C100 140 140 100 200 40" />
+  </g>
+  <!-- Parang S-Scroll Knives (Lereng) -->
+  <g stroke="#EADFCB" stroke-opacity="0.22" stroke-width="1.5" fill="#3B0A14" fill-opacity="0.45">
+    <path d="M0 80 C16 54 34 54 40 40 C46 26 26 16 40 0 C54 16 74 26 80 0 L40 40 Z" />
+    <path d="M40 120 C56 94 74 94 80 80 C86 66 66 56 80 40 C94 56 114 66 120 40 L80 80 Z" />
+    <path d="M80 160 C96 134 114 134 120 120 C126 106 106 96 120 80 C134 96 154 106 160 80 L120 120 Z" />
+    <path d="M0 160 C16 134 34 134 40 120 C46 106 26 96 40 80 L0 120 Z" />
+    <path d="M80 80 C96 54 114 54 120 40 C126 26 106 16 120 0 L80 40 Z" />
+  </g>
+  <!-- Mlinjon Diamond Dots -->
+  <g fill="#EADFCB" fill-opacity="0.26">
+    <polygon points="20,60 24,56 28,60 24,64" />
+    <polygon points="60,20 64,16 68,20 64,24" />
+    <polygon points="60,100 64,96 68,100 64,104" />
+    <polygon points="100,60 104,56 108,60 104,64" />
+    <polygon points="100,140 104,136 108,140 104,144" />
+    <polygon points="140,100 144,96 148,100 144,104" />
+  </g>
+</svg>

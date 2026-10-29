@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Grayscale Height Map for Envelope Bump Map (Black = flat paper, White = raised floral emboss) -->
+  <rect width="1024" height="1024" fill="#181818" />
+  <defs>
+    <g id="melati-blossom">
+      <circle cx="0" cy="-18" r="12" fill="#D8D8D8" />
+      <circle cx="17" cy="-6" r="12" fill="#D8D8D8" />
+      <circle cx="11" cy="15" r="12" fill="#D8D8D8" />
+      <circle cx="-11" cy="15" r="12" fill="#D8D8D8" />
+      <circle cx="-17" cy="-6" r="12" fill="#D8D8D8" />
+      <circle cx="0" cy="0" r="9" fill="#FFFFFF" />
+    </g>
+    <g id="vine-corner">
+      <path d="M40 480 C44 310 92 170 210 96 C310 38 430 42 512 48" stroke="#B8B8B8" stroke-width="10" fill="none" stroke-linecap="round" />
+      <path d="M84 380 C140 340 168 270 132 220 C106 188 68 204 76 242" stroke="#9E9E9E" stroke-width="7" fill="none" stroke-linecap="round" />
+      <path d="M180 210 C240 198 286 142 256 98 C236 72 196 86 204 122" stroke="#9E9E9E" stroke-width="7" fill="none" stroke-linecap="round" />
+      <path d="M330 106 C380 128 432 96 420 56" stroke="#9E9E9E" stroke-width="6" fill="none" stroke-linecap="round" />
+      <use href="#melati-blossom" transform="translate(88, 232) scale(1.1)" />
+      <use href="#melati-blossom" transform="translate(216, 114) scale(1.25)" />
+      <use href="#melati-blossom" transform="translate(366, 86) scale(0.95)" />
+      <use href="#melati-blossom" transform="translate(64, 392) scale(0.85)" />
+    </g>
+  </defs>
+
+  <!-- Four symmetrical creeping border vines, leaving center clean as required -->
+  <use href="#vine-corner" />
+  <use href="#vine-corner" transform="translate(1024, 0) scale(-1, 1)" />
+  <use href="#vine-corner" transform="translate(0, 1024) scale(1, -1)" />
+  <use href="#vine-corner" transform="translate(1024, 1024) scale(-1, -1)" />
+</svg>

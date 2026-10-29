@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#101010" />
+  <!-- Irregular Wax Outer Ridge -->
+  <path
+    d="M256 26
+       C318 22 384 52 426 98
+       C468 144 490 202 486 264
+       C482 326 456 388 408 430
+       C360 472 298 490 238 486
+       C178 482 114 456 74 408
+       C34 360 22 298 26 238
+       C30 178 58 114 106 72
+       C154 30 202 30 256 26 Z"
+    fill="#787878"
+  />
+  <!-- Raised Wax Rim Ring -->
+  <circle cx="256" cy="256" r="186" fill="#424242" stroke="#DCDCDC" stroke-width="18" />
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#B0B0B0" stroke-width="4" stroke-dasharray="8 8" />
+
+  <!-- Central Embossed Javanese Melati (Jasmine) Emblem -->
+  <g transform="translate(256, 256)">
+    <!-- Outer 8 Lung-lungan Tendril Leaves -->
+    <g fill="#B8B8B8">
+      <path d="M0 -132 C18 -96 18 -64 0 -40 C-18 -64 -18 -96 0 -132 Z" />
+      <path d="M0 132 C18 96 18 64 0 40 C-18 64 -18 96 0 132 Z" />
+      <path d="M-132 0 C-96 18 -64 18 -40 0 C-64 -18 -96 -18 -132 0 Z" />
+      <path d="M132 0 C96 18 64 18 40 0 C64 -18 96 -18 132 0 Z" />
+    </g>
+    <!-- 5 Sculpted Melati Petals -->
+    <g fill="#F0F0F0" stroke="#FFFFFF" stroke-width="3">
+      <path d="M0 -18 C24 -58 46 -92 0 -114 C-46 -92 -24 -58 0 -18 Z" />
+      <path d="M0 -18 C24 -58 46 -92 0 -114 C-46 -92 -24 -58 0 -18 Z" transform="rotate(72)" />
+      <path d="M0 -18 C24 -58 46 -92 0 -114 C-46 -92 -24 -58 0 -18 Z" transform="rotate(144)" />
+      <path d="M0 -18 C24 -58 46 -92 0 -114 C-46 -92 -24 -58 0 -18 Z" transform="rotate(216)" />
+      <path d="M0 -18 C24 -58 46 -92 0 -114 C-46 -92 -24 -58 0 -18 Z" transform="rotate(288)" />
+    </g>
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" />
+    <circle cx="0" cy="0" r="10" fill="#B8B8B8" />
+  </g>
+</svg>

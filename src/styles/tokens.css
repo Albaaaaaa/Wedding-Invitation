@@ -1,0 +1,75 @@
+:root {
+  /* Palet Utama Keraton Jawa — Maroon Dominan, Tanpa Logam (kecuali segel lilin) */
+  --maroon-keraton: #6B1424;
+  --maroon-pekat: #3B0A14;
+  --hitam-kelir: #0B0506;
+  --maroon-sogan: #8E2233;
+  --gading: #EADFCB;
+  --gading-redup: #BFB19A;
+
+  /* Cahaya Blencong & Segel Lilin */
+  --cahaya-blencong: #F2E3C6;
+  --segel-emas-kuno: #B08D57;
+
+  /* Tipografi */
+  --font-aksara: 'Noto Sans Javanese', serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Spectral', Georgia, serif;
+
+  /* Easing Sinematik */
+  --ease-keraton: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.font-aksara {
+  font-family: var(--font-aksara);
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+}
+
+.font-display-latin {
+  font-family: var(--font-display);
+}
+
+.font-body-prose {
+  font-family: var(--font-body);
+  line-height: 1.7;
+}
+
+/* Tone-on-tone surface helpers (no metallic gradients, no backdrop-filter over WebGL) */
+.surface-keraton {
+  background-color: rgba(59, 10, 20, 0.92);
+  border: 1px solid rgba(234, 223, 203, 0.24);
+}
+
+.surface-kelir-card {
+  background-color: rgba(11, 5, 6, 0.88);
+  border: 1px solid rgba(234, 223, 203, 0.2);
+}
+
+.btn-primary-keraton {
+  background-color: var(--maroon-sogan);
+  color: var(--gading);
+  border: 1px solid rgba(234, 223, 203, 0.45);
+  transition: transform 180ms var(--ease-keraton), opacity 180ms var(--ease-keraton), background-color 180ms var(--ease-keraton);
+}
+
+.btn-primary-keraton:hover:not(:disabled) {
+  background-color: #9e283b;
+  transform: translateY(-1px);
+}
+
+.btn-primary-keraton:active:not(:disabled) {
+  transform: translateY(0) scale(0.98);
+}
+
+.btn-secondary-keraton {
+  background-color: rgba(59, 10, 20, 0.72);
+  color: var(--gading);
+  border: 1px solid rgba(234, 223, 203, 0.42);
+  transition: transform 180ms var(--ease-keraton), opacity 180ms var(--ease-keraton), border-color 180ms var(--ease-keraton);
+}
+
+.btn-secondary-keraton:hover:not(:disabled) {
+  border-color: var(--gading);
+  transform: translateY(-1px);
+}

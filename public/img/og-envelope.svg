@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="og-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#6B1424" />
+      <stop offset="65%" stop-color="#3B0A14" />
+      <stop offset="100%" stop-color="#0B0506" />
+    </radialGradient>
+    <radialGradient id="seal-gold" cx="38%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#D9BC87" />
+      <stop offset="55%" stop-color="#B08D57" />
+      <stop offset="100%" stop-color="#6E532B" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#og-bg)" />
+
+  <!-- Envelope Scalloped Diagonal Flaps -->
+  <path d="M0 0 L680 315 L0 630 Z" fill="#6B1424" stroke="#8E2233" stroke-width="3" />
+  <path d="M1200 0 L520 315 L1200 630 Z" fill="#5B101E" stroke="#8E2233" stroke-width="3" />
+  <path d="M20 0 L660 315 L20 630" fill="none" stroke="#8E2233" stroke-width="2" stroke-dasharray="8 8" />
+  <path d="M1180 0 L540 315 L1180 630" fill="none" stroke="#8E2233" stroke-width="2" stroke-dasharray="8 8" />
+
+  <!-- Embossed Title Top & Bottom -->
+  <text x="600" y="110" text-anchor="middle" fill="#EADFCB" fill-opacity="0.88" font-family="serif" font-size="38" letter-spacing="4">ꦱꦸꦒꦼꦁꦫꦮꦸꦃ</text>
+  <text x="600" y="152" text-anchor="middle" fill="#EADFCB" fill-opacity="0.75" font-family="Georgia, serif" font-style="italic" font-size="24" letter-spacing="3">Pawiwahan Ageng Sekar &amp; Wirawan</text>
+
+  <!-- Central Antique Gold Wax Seal -->
+  <g transform="translate(600, 315)">
+    <circle cx="0" cy="6" r="78" fill="#0B0506" fill-opacity="0.55" />
+    <circle cx="0" cy="0" r="74" fill="url(#seal-gold)" />
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#EADFCB" stroke-opacity="0.45" stroke-width="3" />
+    <circle cx="0" cy="-22" r="12" fill="#EADFCB" fill-opacity="0.45" />
+    <circle cx="21" cy="-7" r="12" fill="#EADFCB" fill-opacity="0.45" />
+    <circle cx="13" cy="18" r="12" fill="#EADFCB" fill-opacity="0.45" />
+    <circle cx="-13" cy="18" r="12" fill="#EADFCB" fill-opacity="0.45" />
+    <circle cx="-21" cy="-7" r="12" fill="#EADFCB" fill-opacity="0.45" />
+    <circle cx="0" cy="0" r="9" fill="#FFF5E1" fill-opacity="0.7" />
+  </g>
+
+  <text x="600" y="520" text-anchor="middle" fill="#EADFCB" fill-opacity="0.85" font-family="Georgia, serif" font-size="22" letter-spacing="4">SABTU LEGI · 12 DESEMBER 2026</text>
+  <text x="600" y="556" text-anchor="middle" fill="#BFB19A" font-family="Georgia, serif" font-style="italic" font-size="18">Pendopo Ageng Ndalem Ngabean, Yogyakarta</text>
+</svg>

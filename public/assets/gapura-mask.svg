@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <!-- White = opaque photo area inside carved Javanese Gapura arch; Black = masked out -->
+  <rect width="800" height="1000" fill="#000000" />
+
+  <!-- Outer delicate lung-lungan filigreed silhouette border -->
+  <path d="M 96 928
+           L 96 420
+           C 96 340, 118 286, 152 246
+           C 138 220, 156 192, 186 196
+           C 226 144, 288 106, 356 86
+           C 372 56, 388 38, 400 24
+           C 412 38, 428 56, 444 86
+           C 512 106, 574 144, 614 196
+           C 644 192, 662 220, 648 246
+           C 682 286, 704 340, 704 420
+           L 704 928
+           C 704 948, 688 960, 664 960
+           L 136 960
+           C 112 960, 96 948, 96 928 Z"
+        fill="#ffffff" />
+
+  <!-- Carved Lace Cutouts along the outer arch rim (Sunggingan / Ukiran Tembus Gebyok) -->
+  <g fill="#000000">
+    <!-- Crown Kayon Filigree Cutouts -->
+    <circle cx="400" cy="64" r="9" />
+    <path d="M 382 84 C 372 72, 360 80, 368 94 Z" />
+    <path d="M 418 84 C 428 72, 440 80, 432 94 Z" />
+
+    <!-- Left Arch Scroll Cutouts -->
+    <circle cx="316" cy="118" r="8" />
+    <circle cx="248" cy="160" r="8" />
+    <circle cx="192" cy="218" r="8" />
+    <circle cx="144" cy="296" r="7" />
+    <circle cx="122" cy="372" r="7" />
+
+    <!-- Right Arch Scroll Cutouts -->
+    <circle cx="484" cy="118" r="8" />
+    <circle cx="552" cy="160" r="8" />
+    <circle cx="608" cy="218" r="8" />
+    <circle cx="656" cy="296" r="7" />
+    <circle cx="678" cy="372" r="7" />
+
+    <!-- Side Pillar Carved Notch Cutouts -->
+    <path d="M 96 480 L 114 492 L 96 504 Z" />
+    <path d="M 96 620 L 114 632 L 96 644 Z" />
+    <path d="M 96 760 L 114 772 L 96 784 Z" />
+    <path d="M 704 480 L 686 492 L 704 504 Z" />
+    <path d="M 704 620 L 686 632 L 704 644 Z" />
+    <path d="M 704 760 L 686 772 L 704 784 Z" />
+  </g>
+</svg>

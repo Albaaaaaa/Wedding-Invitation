@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 768" width="512" height="768">
+  <defs>
+    <filter id="wayang-edge" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="0.8" />
+    </filter>
+    <pattern id="tatahan-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.4" fill="#F2E3C6" fill-opacity="0.85" />
+      <circle cx="9" cy="9" r="1.1" fill="#F2E3C6" fill-opacity="0.7" />
+      <circle cx="9" cy="3" r="0.8" fill="#F2E3C6" fill-opacity="0.5" />
+    </pattern>
+  </defs>
+
+  <!-- Gapit (Central horn control rod) -->
+  <g id="gapit">
+    <path d="M254 220 L258 758" stroke="#1E0C10" stroke-width="5" stroke-linecap="round" />
+    <path d="M256 680 C248 705 248 735 256 760 C264 735 264 705 256 680 Z" fill="#0B0506" stroke="#EADFCB" stroke-opacity="0.25" stroke-width="1.2" />
+  </g>
+
+  <!-- Body &Dodger Kain Jarik with Sunggingan Perforations -->
+  <g id="body" filter="url(#wayang-edge)">
+    <!-- Torso & Slender Waist (Wayang Kulit Putri proportion) -->
+    <path d="M222 250 C252 246 286 250 302 272 C292 316 280 348 276 378 C296 410 326 468 338 565 C342 605 322 642 292 652 L198 652 C180 622 192 550 208 475 C218 425 228 392 232 374 C226 340 214 296 222 250 Z" fill="#0B0506" />
+    <!-- Train of Kain Kampuh / Dodot -->
+    <path d="M198 520 C162 548 134 590 124 648 C154 654 184 652 206 648 Z" fill="#0B0506" />
+    <!-- Praba / Back Wing Ornament -->
+    <path d="M218 252 C184 238 158 264 166 302 C172 330 198 348 226 356 Z" fill="#0B0506" />
+  </g>
+
+  <!-- Head & Gelung Supit Urang / Paes Ageng Headdress (Profile facing left-center) -->
+  <g id="head">
+    <!-- Neck -->
+    <path d="M242 214 L270 218 L276 256 L236 254 Z" fill="#0B0506" />
+    <!-- Noble Wayang Profile (facing left, slightly downward tilt) -->
+    <path d="M236 144 C214 152 190 168 172 178 C184 184 196 186 202 192 C194 198 196 206 206 210 C202 218 212 224 228 222 C244 220 264 214 274 198 C286 178 276 146 236 144 Z" fill="#0B0506" />
+    <!-- Gelung / Makuta Putri & Sumping Ear Ornament -->
+    <path d="M232 144 C236 102 274 74 316 86 C352 96 368 138 344 174 C326 202 296 212 272 204 C298 188 324 162 316 132 C308 108 274 112 262 142 Z" fill="#0B0506" />
+    <!-- Sumping Sekar Melati -->
+    <path d="M262 168 C286 154 312 162 322 184 C304 192 282 192 264 184 Z" fill="#0B0506" />
+    <!-- Crown Finial (Garuda Mungkur & Cunduk Mentul) -->
+    <path d="M244 126 C240 94 256 68 278 60 C274 84 268 106 260 128 Z" fill="#0B0506" />
+    <circle cx="280" cy="56" r="5" fill="#0B0506" />
+    <circle cx="302" cy="66" r="4.5" fill="#0B0506" />
+    <circle cx="322" cy="80" r="4" fill="#0B0506" />
+  </g>
+
+  <!-- Articulated Upper Arm -->
+  <g id="upper-arm">
+    <path d="M286 266 C306 286 322 332 328 378 C318 382 308 380 302 372 C296 332 284 294 272 272 Z" fill="#0B0506" />
+    <circle cx="280" cy="268" r="4" fill="#F2E3C6" fill-opacity="0.8" />
+  </g>
+
+  <!-- Articulated Lower Arm + Sampur Sash + Tuding Rod -->
+  <g id="lower-arm">
+    <!-- Slender Forearm & Graceful Hand in Sembah Gesture -->
+    <path d="M322 374 C292 356 254 334 218 312 C202 302 186 292 176 280 C186 276 200 284 214 294 C252 314 292 340 328 368 Z" fill="#0B0506" />
+    <!-- Flowing Sampur (Silk Dance Sash) -->
+    <path d="M222 308 C206 368 188 438 164 510 C178 518 192 508 202 486 C218 430 228 368 236 316 Z" fill="#0B0506" />
+    <!-- Tuding (Arm Control Rod) -->
+    <path d="M182 284 L152 670" stroke="#1E0C10" stroke-width="2.5" stroke-opacity="0.85" />
+  </g>
+
+  <!-- Sunggingan / Tatahan Filigree Perforations (Light shines through these holes) -->
+  <g id="sunggingan" fill="#F2E3C6" fill-opacity="0.88">
+    <!-- Crown & Sumping Filigree -->
+    <circle cx="288" cy="112" r="3" />
+    <circle cx="304" cy="106" r="3.5" />
+    <circle cx="320" cy="114" r="3" />
+    <circle cx="332" cy="128" r="3" />
+    <circle cx="334" cy="146" r="2.8" />
+    <circle cx="290" cy="176" r="2.5" />
+    <circle cx="302" cy="178" r="2.5" />
+    <!-- Eye Slit (Jaitan Wayang Putri) -->
+    <path d="M210 174 Q222 172 230 177 Q220 179 210 174 Z" />
+    <!-- Necklace (Kalung Sungsun) Perforations -->
+    <circle cx="242" cy="256" r="2.5" />
+    <circle cx="254" cy="260" r="3" />
+    <circle cx="266" cy="260" r="3" />
+    <circle cx="278" cy="256" r="2.5" />
+    <!-- Praba Filigree -->
+    <path d="M180 278 C184 262 200 258 210 270 C200 268 188 272 180 278 Z" />
+    <circle cx="192" cy="296" r="3" />
+    <circle cx="198" cy="314" r="2.5" />
+    <!-- Kain Sidomukti Tatahan Pattern on Skirt -->
+    <rect x="220" y="400" width="76" height="220" rx="28" fill="url(#tatahan-dots)" />
+    <!-- Decorative Border Curve on Kain -->
+    <path d="M214 632 L304 632" stroke="#F2E3C6" stroke-width="2.5" stroke-dasharray="4 5" stroke-opacity="0.8" />
+    <path d="M138 636 L196 636" stroke="#F2E3C6" stroke-width="2" stroke-dasharray="3 4" stroke-opacity="0.7" />
+  </g>
+</svg>
